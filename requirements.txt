@@ -8,3 +8,4 @@ flask-cors==3.0.6
 PyYAML==3.13
 defusedxml==0.5.0
 waitress==1.4.3
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
